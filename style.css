@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    margin: 0px;
+}
+.img-md{
+    width: 400px;
+    border-radius: 10px;
+}
+#home{
+    padding-top:100px;
+    padding-bottom: 50px;
+    background:linear-gradient(rgb(247, 231, 7), rgb(240, 155, 9), rgb(255, 0, 0));
+}
+#bio p{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    text-align: justify;
+    font-size: 18px;
+}
+iframe{
+    width: 1000px;
+    height: 500px;
+}
+#menu{
+    list-style:none;
+    background-color: orange;
+    width: 100%;
+    z-index: 999;
+    top: -20px;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#menu li{
+    float: left;
+    padding: 10px;
+}
+#menu li a{
+    text-decoration: none;
+    color:white;
+}
+#menu li a:hover{
+    font-weight: bold;
+    color: bisque;
+}
